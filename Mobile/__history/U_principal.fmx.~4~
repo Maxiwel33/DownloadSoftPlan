@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 304
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lyt_principal: TLayout
+    Align = Client
+    Size.Width = 304.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lyt_btn: TLayout
+      Align = Bottom
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 16.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 414.000000000000000000
+      Size.Width = 294.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object btn1: TButton
+        Align = Client
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 294.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Baixar Arquivo'
+        TextSettings.Font.Size = 15.000000000000000000
+        OnClick = btn1Click
+      end
+    end
+    object lyt1: TLayout
+      Align = Top
+      Size.Width = 304.000000000000000000
+      Size.Height = 385.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lv1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 304.000000000000000000
+        Size.Height = 385.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+  object RESTClient: TRESTClient
+    Authenticator = HTTPBasicAuthenticator1
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 'http://localhost:8082/'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 48
+    Top = 200
+  end
+  object ReqRDW: TRESTRequest
+    Client = RESTClient
+    Params = <>
+    Resource = 'getfiles'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 120
+    Top = 128
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'text/html'
+    Left = 216
+    Top = 40
+  end
+  object HTTPBasicAuthenticator1: THTTPBasicAuthenticator
+    Username = 'testeserver'
+    Password = 'testeserver'
+    Left = 80
+    Top = 24
+  end
+end

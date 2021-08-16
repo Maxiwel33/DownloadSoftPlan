@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/24 21:17:01.000.112,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/02/28 18:48:17.000.399,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/21 21:48:24.000.269,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/29 16:46:59.000.912,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/12 07:11:25.000.712,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/25 21:03:41.000.817,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/09 06:40:19.000.672,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/24 07:38:00.000.447,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/28 08:30:05.000.649,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/21 08:54:37.000.551,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 07:27:17.000.725,=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 07:28:10.000.865,C:\SoftPlan\ServerRDW\U_ServidorRDW.pas=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 07:28:10.000.865,C:\SoftPlan\ServerRDW\U_ServidorRDW.dfm=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/08/13 07:28:17.000.140,C:\SoftPlan\ServerRDW\Server1.dproj=C:\Users\clade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/13 07:28:53.000.045,=C:\SoftPlan\ServerRDW\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 07:29:26.000.792,C:\SoftPlan\ServerRDW\U_DMServer.pas=C:\SoftPlan\ServerRDW\Unit1.pas</Transaction>
+    <Transaction>2021/08/13 07:29:26.000.792,C:\SoftPlan\ServerRDW\U_DMServer.dfm=C:\SoftPlan\ServerRDW\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

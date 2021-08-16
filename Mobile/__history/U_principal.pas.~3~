@@ -1,0 +1,37 @@
+unit U_principal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base,
+  FMX.ListView, FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts,
+  REST.Types, REST.Client, REST.Authenticator.Basic, Data.Bind.Components,
+  Data.Bind.ObjectScope;
+
+type
+  TForm1 = class(TForm)
+    lyt_principal: TLayout;
+    lyt_btn: TLayout;
+    btn1: TButton;
+    lyt1: TLayout;
+    lv1: TListView;
+    RESTClient: TRESTClient;
+    ReqRDW: TRESTRequest;
+    RESTResponse1: TRESTResponse;
+    HTTPBasicAuthenticator1: THTTPBasicAuthenticator;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+end.
